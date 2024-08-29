@@ -1,33 +1,33 @@
-name: New feature proposals
-description: Give the launcher some new ideas
+name: 新功能提案
+description: 为启动器提供一些新点子
 labels: ["新功能提案/New feature proposals"]
 body:
 - type: checkboxes
   id: "yml-1"
   attributes:
-    label: "Check"
-    description: "Please check each of the following items and check the box to confirm."
+    label: "检查项"
+    description: "请逐个检查下列项目，并勾选确认。"
     options:
-    - label: "I have read it carefully [《MoY Studio Issue Repository Submission Specification (2024)》](issue.moystudio.fun)and are willing to abide by the rules therein"
+    - label: "我确认在Issues列表中并无其他人已经建议过相似的功能"
       required: true
-    - label: "I confirm that no one else in the Issues list has suggested a similar feature"
+    - label: "我已认真阅读[《MoY工作室issue库提交规范条例(2024)》](issue.moystudio.fun)，并愿意遵守其中的规则"
       required: true
 - type: textarea
   id: "yml-2"
   attributes:
-    label: Does this new feature solve an existing problem or bug?
-    placeholder: "-（Please answer here）-"
+    label: 这个新功能是可以解决目前存在的某个问题或BUG吗？
+    placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-3"
   attributes:
-    label: Description of the desired functionality
-    placeholder: "-（Please answer here）-"
+    label: 期望的功能描述
+    placeholder: "-（请在这里回答，如果没有请填写“无”）-"
   validations:
     required: true
 - type: textarea
   id: "yml-4"
   attributes:
-    label: annotations
-    placeholder: "-（Please fill in here, if not, please fill in “None”）-"
+    label: 附注
+    placeholder: "-（请在这里回答，如没有请填写“无”）-"
