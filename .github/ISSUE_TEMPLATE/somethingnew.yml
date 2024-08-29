@@ -1,0 +1,33 @@
+name: New feature proposals
+description: Give the launcher some new ideas
+labels: ["新功能提案/New feature proposals"]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "Check"
+    description: "Please check each of the following items and check the box to confirm."
+    options:
+    - label: "I have read it carefully [《MoY Studio Issue Repository Submission Specification (2024)》](issue.moystudio.fun)and are willing to abide by the rules therein"
+      required: true
+    - label: "I confirm that no one else in the Issues list has suggested a similar feature"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: Does this new feature solve an existing problem or bug?
+    placeholder: "-（Please answer here）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: Description of the desired functionality
+    placeholder: "-（Please answer here）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: annotations
+    placeholder: "-（Please fill in here, if not, please fill in “None”）-"
