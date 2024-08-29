@@ -1,0 +1,59 @@
+name: BUG REPORT
+description: Looks like you've encountered some bugs, and we're very sorry!（If you attach an image, it will help us solve the problem faster!）
+labels: ["BUG"  ]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "Check"
+    description: "Please check each of the following items and check the box to confirm."
+    options:
+    - label: "I have read it carefully [《MoY Studio Issue Repository Submission Specification (2024)》](issue.moystudio.fun)and are willing to abide by the rules therein"
+      required: true
+    - label: "I confirm that no one else in the Issues list has raised the same or similar issue as this one."
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: The problem you're experiencing
+    placeholder: "-（Please answer here）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: What do you expect to happen if you do that?
+    placeholder: "-（Please answer here）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: HOW DO I REPRODUCE THIS BUG?
+    placeholder: "-（Please answer here）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: What could be causing the problem
+    placeholder: "-（If you don't know, please fill in “None”）-"
+- type: textarea
+  id: "yml-6"
+  attributes:
+    label: System environment
+    placeholder: "For example: Windows 7 64-bit SP1, Windows 10 Pro 64-bit 1909, Windows 10 Home 32-bit 2002"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-7"
+  attributes:
+    label: THE MOD VERSION THAT ENCOUNTERED THE BUG
+    placeholder: "For example：0.0.1"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-8"
+  attributes:
+    label: annotations
+    placeholder: "-（Please fill in here, if not, please fill in “None”）-"
