@@ -8,7 +8,7 @@ body:
     label: "检查项"
     description: "请逐个检查下列项目，并勾选确认。"
     options:
-    - label: "我已认真阅读[《MoY工作室issue库提交规范条例(2024)》](issue.moystudio.fun)并愿意遵守其中的规则"
+    - label: "我已认真阅读[《MoY工作室issue库提交规范条例(2024)》](https://issue.moystudio.fun)并愿意遵守其中的规则"
       required: true
     - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
       required: true
