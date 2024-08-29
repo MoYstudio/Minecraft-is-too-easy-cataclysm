@@ -8,7 +8,7 @@ body:
     label: "Check"
     description: "Please check each of the following items and check the box to confirm."
     options:
-    - label: "I have read it carefully [《MoY Studio Issue Repository Submission Specification (2024)》](issue.moystudio.fun)and are willing to abide by the rules therein"
+    - label: "I have read it carefully [《MoY Studio Issue Repository Submission Specification (2024)》](https://issue.moystudio.fun)and are willing to abide by the rules therein"
       required: true
     - label: "I confirm that no one else in the Issues list has raised the same or similar issue as this one."
       required: true
