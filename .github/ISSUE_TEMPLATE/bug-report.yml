@@ -1,0 +1,59 @@
+name: BUG提交
+description: 如果你觉得这个东西好像不对劲，就提交给我们
+labels: ["BUG"]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请逐个检查下列项目，并勾选确认。"
+    options:
+    - label: "我已认真阅读[《MoY工作室issue库提交规范条例(2024)》](https://moystudio.github.io/issue_library_specification.io/)并愿意遵守其中的规则"
+      required: true
+    - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: 你遇到的问题
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: 你期望你那么操作会发生什么？
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: 如何重现此BUG？
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: 你可能造成问题的原因
+    placeholder: "-（若不知道，请填写 “无”）-"
+- type: textarea
+  id: "yml-6"
+  attributes:
+    label: 系统环境
+    placeholder: "例如：Windows 7 64位 SP1、Windows 10 专业版 64位 1909、Windows 10 家庭版 32位 2002"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-7"
+  attributes:
+    label: 遇到BUG的启动器版本
+    placeholder: "例：Alpha 0.0.1"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-8"
+  attributes:
+    label: 附注
+    placeholder: "-（请在这里回答，若没有请填写“无”）-"
